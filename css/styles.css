@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bebas Neue'; /* Name the font family (you can choose any name) */
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype'); /* Specify the path to the font file */
+  }
+  @font-face {
+    font-family: 'Nortune'; /* Name the font family (you can choose any name) */
+    src: url('../fonts/Nortune-Black.ttf') format('truetype'); /* Specify the path to the font file */
+  }
+.navbar a {
+    display: block; /* Set anchor elements as block-level elements */
+    transform: rotate(-90deg); /* Rotate the text 90 degrees counterclockwise */
+    transform-origin: center; /* Set the rotation origin to the right center */
+  margin-left: -20px; /* Adjust for the rotated text to prevent overlap */
+   /* padding: 20px; /* Add some spacing between items for better readability */
+  
+  }
+.navbar li {
+    display: block; /* Set list items as block-level elements */
+    text-align: center; /* Align text in the center of the list items */
+    padding: 50px; /* Add some spacing between items for better readability */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+.navbar{
+    overflow-x: hidden;
+}
+#offCanvas {
+    max-width: 75px;
+}
+
+.header H1{
+    font-family: 'Nortune', sans-serif;
+    font-size: 5rem;
+}
+body p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem
+}
