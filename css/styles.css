@@ -35,3 +35,32 @@ body p{
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.5rem
 }
+
+body{
+  background-color: #C6AC8F; /* Add a light gray background color */
+}
+
+.header{
+  background-color: #C6AC8F !important;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#divider{
+  border: black solid 5px;
+}
+#divider2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pic{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
